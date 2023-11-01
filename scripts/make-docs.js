@@ -72,7 +72,7 @@ async function main() {
       input.close();
 
       if (title === 'sdk package') {
-        title = 'Package Overview';
+        title = 'Package Introduction';
       }
       const header = ['---', `id: ${id}`, `title: ${title}`, 'hide_title: true', '---'];
 
